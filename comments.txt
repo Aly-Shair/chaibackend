@@ -1,0 +1,41 @@
+npm init // first command to create package.json
+
+
+
+PS D:\Ali Shair\Backend\2_How to deploy backend code in production> ls
+
+
+    Directory: D:\Ali Shair\Backend\2_How to deploy backend code in production
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/20/2024  12:44 AM             48 comments.txt
+-a----        12/20/2024  12:46 AM             31 index.js
+-a----        12/20/2024  12:43 AM            281 package.json
+
+
+PS D:\Ali Shair\Backend\2_How to deploy backend code in production> node index.js
+Chai or Backend
+
+
+npm run start // it is a custom build command 
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+
+when we write "npm run start" it runs "node index.js"
+
+
+
+https://expressjs.com/en/starter/hello-world.html
+
+npm install express // to install express library
+
+
+https://www.npmjs.com/package/dotenv
+
+npm install dotenv // package for "ab apnay to kaha kay port number 3000 meray computer per free a ap uspar load 
+kar lo ho sakta ha kisi or kay computer per busy ho to usko 4000 use karna paray to jab ap server par ja rahay 
+han ya kisi or computer par ja rahay han to gurantee nahi ha kay apko yehi wala port milay free"
